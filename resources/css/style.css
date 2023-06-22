@@ -1,3 +1,14 @@
+@font-face {
+  font-family: 'roboto bold';
+  src: url(/fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: 'roboto light';
+  src: url(/fonts/Roboto-Light.ttf);
+}
+
+
+
 /* Universal Styles */
 
 html {
@@ -34,10 +45,6 @@ html {
   }
 }
 
-@font-face {
-  font-family: 'rubik';
-  src: url('/Rubik/static/Rubik-Regular.ttf');
-}
 
 /* Header */
 
@@ -251,13 +258,22 @@ header .mobile {
 .feature {
   flex: 1;
   padding: 2rem;
-  margin: 0px 1.25rem;
+  margin: 0px 2.375rem;
   background-color: white;
+  width: 40rem;
+  height: 39.6875rem;
 }
 
 .feature .image-container {
   width: 90%;
   height: 65%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.feature .image-container img {
+  width: 36rem;
+  height: 25.41rem;
   margin: 0 auto;
 }
 
@@ -266,10 +282,12 @@ header .mobile {
   font-size: 2.25rem;
   font-weight: bold;
   color: #4a4a4a;
+  font-family: 'roboto bold';
 }
 
 .feature h3 {
   font-size: 1rem;
+  font-family: 'roboto light';
   line-height: 1.2;
   font-weight: 300;
   color: #4a4a4a;
