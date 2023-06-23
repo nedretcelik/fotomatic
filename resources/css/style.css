@@ -332,12 +332,15 @@ header .mobile {
 
 #filters-section .content h2 {
   font-size: 2.25rem;
+  font-family: 'roboto bold';
   font-weight: bold;
   color: white;
+  opacity: 100%;
 }
 
 #filters-section .content h3 {
   font-size: 1rem;
+  font-family: 'roboto light';
   line-height: 1.4;
   font-weight: 300;
   color: white;
@@ -346,6 +349,13 @@ header .mobile {
 #filters-section .images-container {
   max-width: 100%;
   padding: 0 1%;
+  display: flex;
+  justify-content: center;
+}
+
+#filters-section .images-container img {
+  width: 100%;
+ height: 500px;
 }
 
 @media only screen and (max-width: 760px) {
@@ -378,27 +388,30 @@ header .mobile {
   }
 }
 
+
 /* Quotes Section */
 
 #quotes-section {
   background-color: #f3f3f3;
+  height: 200px; 
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
   line-height: 1.1;
   font-style: italic;
-  color: #4a4a4a;
+  color: #4a4a4a;  
 }
 
-#quotes-section quote-citation {
+#quotes-section img {
   height: 1.875rem;
+  padding-top: 5rem;
 }
 
 @media only screen and (max-width: 760px) {
